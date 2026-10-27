@@ -63,7 +63,7 @@ tests/test_pipeline.py      automated checks
 .github/workflows/tests.yml runs the tests on every push
 ```
 
-## Quick start (your computer)
+## Quick start
 
 ```bash
 pip install -r requirements.txt
@@ -90,19 +90,8 @@ python scripts/train_models.py --data path/to/csv_folder --skip random_forest --
 The app also still reads a single `fecg_model.joblib` placed next to `app.py` (the first version of this
 project). It is shown as "Random Forest (our model)" unless `models/random_forest.joblib` exists.
 
-## Deploy on Streamlit Community Cloud
-
-1. Push this repository to GitHub.
-2. At share.streamlit.io choose the repository, branch `main`, main file `app.py`, then Deploy.
-3. In *Advanced settings* choose a Python version close to the one you trained with.
-
 Every push to `main` redeploys the app automatically.
 
-### Updating the repository from the browser
-1. Open the repo on GitHub -> **Add file -> Upload files**.
-2. Drag in the **contents** of the project folder (including the `fecg`, `scripts`, `tests`,
-   `notebooks`, `models` folders) and commit.
-3. Delete files from older versions that are no longer used (for example `fecg_pipeline.py`).
 
 ### Updating with git
 ```bash
@@ -139,4 +128,4 @@ python -m pytest -q          # or: python tests/test_pipeline.py
 
 ## License
 
-MIT - see `LICENSE` (put your name in the copyright line).
+MIT - see `LICENSE` Md. Ekramul Islam.
