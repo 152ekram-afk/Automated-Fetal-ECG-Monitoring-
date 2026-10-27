@@ -1,0 +1,9 @@
+streamlit>=1.56
+numpy
+pandas
+scipy
+matplotlib
+joblib
+# Pin this to the version used to train the models (scripts/train_models.py --pin-requirements
+# or the last cell of the training notebook does it for you).
+scikit-learn
